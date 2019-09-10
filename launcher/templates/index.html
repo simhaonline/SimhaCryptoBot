@@ -5,7 +5,7 @@
     <div class="card col-lg mx-3">
         <div class="card-header">
             <h4>
-                OctoBot
+                SimhaCryptoBot
                 <span class="fa fa-xs fa-sync float-right" onclick="load_template('{{ url_for('bot') }}')"></span>
             </h4>
         </div>
@@ -14,7 +14,7 @@
     <div class="card col-lg mx-3">
         <div class="card-header">
             <h4>
-                OctoBot-Launcher
+                SimhaCryptoBot
                 <span class="fa fa-xs fa-sync float-right" onclick="load_template('{{ url_for('launcher') }}')"></span>
             </h4>
         </div>
@@ -22,14 +22,6 @@
     </div>
 </div>
 <br/>
-<div class="card mx-3">
-    <div class="card-header">
-    <h4>
-        OctoBot news feed
-        <span class="fa fa-xs fa-sync float-right" onclick="load_template('{{ url_for('news') }}')"></span>
-    </h4>
-    <div class="card-body grid" template="{{ url_for('news') }}"></div>
-</div>
 </div>
 <br/>
 {% endblock %}
